@@ -12,8 +12,9 @@ def list_dwarves(array)
   #
   # Print a numbered list of each elemen
   index = 0
-  
+
   array.each_with_index do |dwarves|
     p "#{dwarves}"
+    index += 1
   end
 end
