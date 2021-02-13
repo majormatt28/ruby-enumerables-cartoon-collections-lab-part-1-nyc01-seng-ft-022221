@@ -13,5 +13,8 @@ def list_dwarves(array)
   # Print a numbered list of each element
   array.each_with_index do |dwarves, index|
     p "#{dwarves}"
+    if index < 4
+      p (1..3)
+    end
   end
 end
